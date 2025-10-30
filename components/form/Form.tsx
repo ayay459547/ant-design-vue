@@ -77,8 +77,8 @@ export const formProps = () => ({
 export type FormProps = Partial<ExtractPropTypes<ReturnType<typeof formProps>>>;
 
 export type FormExpose = {
-  resetFields: (name?: NamePath) => void;
-  clearValidate: (name?: NamePath) => void;
+  resetFields: (nameList?: NamePath[]) => void;
+  clearValidate: (nameList?: NamePath[]) => void;
   validateFields: (
     nameList?: NamePath[] | string,
     options?: ValidateOptions,
