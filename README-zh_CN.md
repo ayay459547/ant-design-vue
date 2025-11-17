@@ -12,6 +12,14 @@
 
 [![](https://cdn-images-1.medium.com/max/2000/1*NIlj0-TdLMbo_hzSBP8tmg.png)](https://www.antdv.com/)
 
+<div align="center">
+  <sup><strong>赞助商</strong></sup>
+  <br>
+  <a href="https://mentorbook.ai/" target="_blank">
+    <img src="/site/public/mentorbook_banner_zh.svg" alt="Mentorbook.AI - 你的 AI 导师，你的学习之旅" />
+  </a>
+</div>
+
 [English](./README.md) | 简体中文
 
 ## 特性
