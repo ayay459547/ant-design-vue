@@ -108,7 +108,6 @@
   </div>
 </template>
 <script lang="ts">
-import type { GlobalConfig } from '../App.vue';
 import { GLOBAL_CONFIG } from '../SymbolKey';
 import { defineComponent, inject, computed, ref, provide, watch } from 'vue';
 import { useRoute } from 'vue-router';
@@ -129,6 +128,7 @@ import CompactIcon from './icons/Compact';
 import surelyVueVue from '../components/surelyVue.vue';
 import WWAdsVue from '../components/rice/WWAds.vue';
 import { useWindowScroll } from '@vueuse/core';
+import type { GlobalConfig } from '../type';
 
 const rControl = /[\u0000-\u001f]/g;
 const rSpecial = /[\s~`!@#$%^&*()\-_+=[\]{}|\\;:"'<>,.?/]+/g;
